@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package >
+  <metadata>
+    <id>SimcoeAI.Test</id>
+    <title>SimcoeAI Xunit Dependency Injection</title>
+    <version>1.0</version>
+    <authors>Arash Sabet and Milad Ghafoori</authors>
+    <owners>Simcoe AI Inc.</owners>
+    <licenseUrl>https://github.com/SimcoeAI/xunitdi/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SimcoeAI/xunitdi</projectUrl>
+    <iconUrl>https://simcoe.ai/wp-content/uploads/2020/10/logo2.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This library contains some useful tools to leverage dependency injection in Xunit test projects.</description>
+    <copyright>2020 - All rights reserved, Simcoe AI Inc</copyright>
+    <tags>Xunit Dependency-Injection Xunit-dependency-injection</tags>
+  </metadata>
+</package>

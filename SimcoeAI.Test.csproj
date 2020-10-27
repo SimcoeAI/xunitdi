@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Company>Simcoe AI Inc.</Company>
+    <Description>This library contains some useful tools to leverage dependency injection in Xunit test projects.</Description>
+    <Copyright>2020 - All rights reserved, Simcoe AI Inc.</Copyright>
+    <Authors>Arash Sabet and Milad Ghafoori</Authors>
+    <PackageId>SimcoeAI.Test</PackageId>
+    <PackageDescription>This library contains some useful tools to leverage dependency injection in Xunit test projects.</PackageDescription>
+    <RepositoryUrl>https://github.com/SimcoeAI/xunittools</RepositoryUrl>
+    <PackageVersion>1.0</PackageVersion>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <PackageLicenseUrl>https://github.com/SimcoeAI/xunittools/blob/main/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Owners>Simcoe AI Inc.</Owners>
+    <PackageProjectUrl>https://github.com/SimcoeAI/xunittools</PackageProjectUrl>
+    <Summary>A minimal and unambitious library to help dependency injection in Xunit framework</Summary>
+    <PackageTags>Xunit Dependency-Injection Xunit-dependency-injection</PackageTags>
+    <Title>Simcoe AI Xunit dependency injection helper</Title>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.9" />
+  </ItemGroup>
+</Project>
